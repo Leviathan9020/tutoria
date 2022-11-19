@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: var(--Violet);
+  background-image: url(./images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main {
+  width: 595px;
+  height: 1448px;
+  margin: 75px auto 40px;
+}
+
+/*------------- SECCION UNO --------------*/
+#seccion1 {
+  height: 724px;
+}
+#logo-container {
+  width: 180px;
+}
+#mockup {
+  width: 595px;
+}
+/*------------- SECCION DOS --------------*/
+#seccion2 {
+  height: 724px;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  text-align: center;
+  height: 170px;
+}
+#seccion2 p {
+  font-size: 31px;
+  text-align: center;
+  height: 280px;
+}
+.btn-register {
+  text-align: center;
+  margin-bottom: 122px;
+}
+.btn-register a {
+  width: 400px;
+  height: 86px;
+  border-radius: 50px;
+  font-size: 25px;
+  color: var(--Violet);
+  background-color: white;
+  display: inline-block;
+  padding-top: 22px;
+  text-decoration: none;
+}
+.btn-register :hover {
+  background-color: var(--SoftMagenta);
+  color: white;
+}
+.social-container {
+  text-align: center;
+}
+.redes {
+  width: 208px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.redes a {
+  border: 2px solid white;
+  text-decoration: none;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 28px;
+  padding-top: 12px;
+}
+.redes a:hover{
+  border-color: var(--SoftMagenta);
+  color: var(--SoftMagenta);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width:1440px){
+  body {
+    background-image: url(./images/bg-desktop.svg);
+    background-size: contain;
+  }
+  main {
+    margin:60px auto 0px;
+    width: 1284px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  /*------------- SECCION UNO --------------*/
+  #seccion1 {
+    width: 753px;
+    height: 700px;
+  }
+  #logo-container {
+    height: 134px;
+  }
+  #mockup {
+    width: 696px;
+  }
+  /*------------- SECCION UNO --------------*/
+  #seccion2 {
+    height: 700px;
+  }
+  h1 {
+    margin-top: 165px;
+    height: 133px;
+    font-size: 39px;
+    text-align: left;
+    padding-right: 93px;
+  }
+  #seccion2 p {
+    height: 98px;
+    font-size: 18px;
+    text-align: left;
+    padding-right: 17px;
+  }
+  .btn-register {
+    text-align: left;
+    margin-bottom: 179px;
+  }
+
+  .btn-register a { /*--este de aca no me dio el tamaño que necesitaba -*/
+    width: 200px;
+    height: 58px;
+    font-size: 20px;
+    padding-top: 14px;
+    text-align: center;
+  }
+  .social-container {
+    text-align: right;
+  }
+  .redes {
+    width: 156px;
+  }
+  .redes a {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+    padding: 8px;
+    text-align: center;
+  }
+  
+}
