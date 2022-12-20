@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Titillium+Web:wght@200;700&display=swap');
+
+html {
+  box-sizing: border-box;    
+} 
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+} 
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.contenedor-navegacion {
+  border-top: 0.1rem solid #dad9d9;
+  }
+
+.nav-principal {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.6;    
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: #6a6a6a;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;    
+}
+
+.container .card {
+  width: 330px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  padding-bottom: 20px;
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);    
+}
+
+.container .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.container .card h4 {
+  font-weight: 600;    
+}
+
+.container .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+}
+
+
+/* footer */
+.site-footer {
+  border-top: 1px solid  #e1e1e1;
+  margin-top: 5rem;
+  padding-top: 5rem;
+}
+
+.site-footer h3 {
+margin-bottom: .5rem;
+}
+
+.grid-footer {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 2rem;
+}
+
+.footer-menu a {
+display: block;
+}
+
+.copyright {
+margin-top: 5rem;
+text-align: center;
+}
+
