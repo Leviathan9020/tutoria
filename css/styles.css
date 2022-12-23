@@ -8,6 +8,8 @@ html {
 body {
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.6rem;
+  line-height: 2;
+  margin: 0;
 }
 
 *,
@@ -29,8 +31,7 @@ a {
 
 .img {
   display: flex;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 .contenedor {
@@ -144,8 +145,5 @@ text-align: center;
 
 .contenido-nosotros {
   display: grid;
-  grid-template-columns: 1fr, 2fr;
-  grid-template-columns: repeat(auto-fit, minmax( 25rem, 1fr ));
-  column-gap: 4rem;
+  grid-template-columns: 1fr 2fr;
 }
-
