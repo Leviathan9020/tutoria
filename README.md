@@ -6,4 +6,4 @@ Tambien se utlizo la practica de las **Custom Propierties**
 
 ![imagen pagina techPRO](./img/techpro.jpg)
 
-:point_right:[]()
+:point_right:[Proyecto TechPRo](https://proyecto-techpro-audifonos.netlify.app)
