@@ -4,6 +4,6 @@ Pagina Responsive creada desde un curso de **Udemy** donde se muestra la practic
 la metodologia **BEM** Css para aprender a evitar la anidacion de clases y sea mas legible
 Tambien se utlizo la practica de las **Custom Propierties**
 
-![imagen pagina techPRO](techPRO.jpg)
+![techPRO](techPRO.jpg)
 
 :point_right:[Proyecto TechPRo](https://proyecto-techpro-audifonos.netlify.app)
